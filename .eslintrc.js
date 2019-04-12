@@ -11,7 +11,7 @@ module.exports = {
   extends: [
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
     // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
-    'plugin:vue/essential', 
+    'plugin:vue/essential',
     // https://github.com/standard/standard/blob/master/docs/RULES-en.md
     'standard'
   ],
@@ -20,10 +20,40 @@ module.exports = {
     'vue'
   ],
   // add your custom rules here
-  rules: {
-    // allow async-await
-    'generator-star-spacing': 'off',
+  'rules': {
+    // tab缩进
+    'indent': [
+      'error',
+      'tab'
+    ],
+    // 单引号引用字符串
+    'quotes': [
+      'error',
+      'single'
+    ],
+    // 必须使用分号结束
+    'semi': [
+      'error',
+      'always'
+    ],
+    'space-before-function-paren':0,
+    'spaced-comment':0,
+    // 允许tab缩进
+    'no-tabs': 'off',
+    // 关闭===检测
+    'eqeqeq': 'off',
+    // 允许多行空行
+    'no-multiple-empty-lines': 'off',
+    // 允许多余空格
+    'no-trailing-spaces': 'off',
+    // end of file last line
+    'eol-last': 'off',
+    // promise reject不需要error对象
+    'prefer-promise-reject-errors': 'off',
+    'keyword-spacing':0,
+    'space-before-blocks':0,
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
+
 }
