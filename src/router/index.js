@@ -4,6 +4,12 @@ import Home from '@/pages/home';
 import Spot from '@/pages/spot';
 import Rout from '@/pages/router';
 import Guide from '@/pages/guide';
+import Login from '@/pages/login';
+import Register from '@/pages/register';
+import Search from '@/pages/search';
+
+
+
 
 
 
@@ -31,6 +37,21 @@ export default new Router({
 			path: '/guide',
 			name: 'Guide',
 			component: Guide
+		},
+		{
+			path: '/login',
+			name: 'Login',
+			component: Login
+		},
+		{
+			path: '/register',
+			name: 'Register',
+			component: Register
+		},
+		{
+			path: '/search',
+			name: 'Search',
+			component: Search
 		}
 
 	]

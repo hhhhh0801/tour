@@ -4,10 +4,10 @@
         <div class="content">
             <el-card class="box-card" shadow="never">
                 <el-row :gutter="20">
-                    <el-col :span="12"><div class="image" id="no_mb"><img src="@/assets/21.jpg" alt=""></div></el-col>
+                    <el-col :span="12"><div class="image" id="no_mb"><img src="@/assets/1.jpg" alt=""></div></el-col>
                     <el-col :span="12">
                         <div class="spot_info">
-                            <h2>title</h2>
+                            <h2 style="margin-top: 0;">title</h2>
                             <p>性别：男</p>
                             <p>擅长语言：普通话</p>
                             <p>从业年限：8年</p>
@@ -15,6 +15,7 @@
                                 <el-tag size="small" >云南</el-tag>
                                 <el-tag size="small">苏州</el-tag>
                             </p>
+                            <p>0条评论</p>
                             <p>Q Q咨询：2765007365</p>
                             <h2 class="price">￥320<span style="color: #999;font-size: 16px;">/天</span></h2>
                             <el-button  class="buy_btn" >立即预定</el-button>

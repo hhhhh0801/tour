@@ -34,7 +34,7 @@
                             <span>苏州一日游</span>
                             <div class="bottom ">
                                 <span class="price">￥33</span>
-                                <el-button type="text" class="button">立即购买</el-button>
+                                <el-button type="text" class="button" @click="goGuide">立即购买</el-button>
                             </div>
                         </div>
                     </el-card>
@@ -69,6 +69,12 @@ export default {
 
 
 		};
+	},
+	methods: {
+		goGuide(){
+			this.$router.push({path: '/guide'});
+		}
+
 	}
 
 };

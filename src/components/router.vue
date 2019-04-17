@@ -8,7 +8,7 @@
                         <span>苏州一日游</span>
                         <div class="bottom ">
                             <span class="price">￥33</span>
-                            <el-button type="text" class="button"  >立即购买</el-button>
+                            <el-button type="text" class="button" @click="goRouter" >立即购买</el-button>
                         </div>
                     </div>
                 </el-card>
@@ -19,7 +19,13 @@
 
 <script>
 export default {
-	name: 'router'
+	name: 'router',
+	methods: {
+		goRouter(){
+			this.$router.push({path: '/router'});
+		}
+
+	}
 };
 </script>
 

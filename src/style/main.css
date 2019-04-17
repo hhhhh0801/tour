@@ -31,5 +31,9 @@ ul li{
     padding: 0;
 
 }
+.my_link{
+    color:#00c;
+    cursor: pointer;
+}
 
 
