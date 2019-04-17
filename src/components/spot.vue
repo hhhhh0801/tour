@@ -1,14 +1,14 @@
 <template>
     <div class="spot">
         <el-row :gutter="20">
-            <el-col :span="6" v-for="(o) in 4" :key="o" >
-                <el-card :body-style="{ padding: '0px' }">
+            <el-col :span="6" v-for="(o) in 4" :key="o">
+                <el-card :body-style="{ padding: '0px' }"  >
                     <img src="@/assets/4.jpg" class="image">
                     <div style="padding: 14px;">
                         <span>苏州一日游</span>
                         <div class="bottom ">
-                            <span>￥33</span>
-                            <el-button type="text" class="button">立即购买</el-button>
+                            <span class="price">￥33</span>
+                            <el-button type="text" class="button" @click="goSpot">立即购买</el-button>
                         </div>
                     </div>
                 </el-card>
@@ -19,7 +19,12 @@
 
 <script>
 export default {
-	name: 'spot'
+	name: 'spot',
+	methods: {
+		goSpot(){
+			this.$router.push({path: '/spot'});
+		}
+	}
 };
 </script>
 
@@ -34,9 +39,4 @@ export default {
         float: right;
     }
 
-
-    .bottom span{
-        color:orangered ;
-        font-size: 24px;
-    }
 </style>

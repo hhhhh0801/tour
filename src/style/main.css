@@ -7,12 +7,29 @@ body{
     /*background: pink;*/
     margin:0 auto;
 }
-h2{
-    margin-bottom: 0;
-}
+
 .image {
     width: 100%;
     display: block;
+}
+.price{
+    color:orangered ;
+    font-size: 24px;
+}
+.price_c{
+    color:orangered ;
+}
+.buy_btn{
+    background: #f60 !important;
+    color:#fff !important;
+}
+.font_14px{
+    font-size: 14px;
+}
+ul li{
+    margin: 0;
+    padding: 0;
+
 }
 
 

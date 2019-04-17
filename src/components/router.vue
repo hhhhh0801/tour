@@ -1,14 +1,14 @@
 <template>
-    <div class="line">
+    <div class="router">
         <el-row :gutter="20">
-            <el-col :span="6" v-for="(o) in 4" :key="o" >
-                <el-card :body-style="{ padding: '0px' }">
+            <el-col :span="6" v-for="(o) in 4" :key="o">
+                <el-card :body-style="{ padding: '0px' }" >
                     <img src="@/assets/22.jpg" class="image">
                     <div style="padding: 14px;">
                         <span>苏州一日游</span>
                         <div class="bottom ">
-                            <span>￥33</span>
-                            <el-button type="text" class="button">立即购买</el-button>
+                            <span class="price">￥33</span>
+                            <el-button type="text" class="button"  >立即购买</el-button>
                         </div>
                     </div>
                 </el-card>
@@ -19,7 +19,7 @@
 
 <script>
 export default {
-	name: 'line'
+	name: 'router'
 };
 </script>
 
@@ -35,8 +35,5 @@ export default {
     }
 
 
-    .bottom span{
-        color:orangered ;
-        font-size: 24px;
-    }
+
 </style>
