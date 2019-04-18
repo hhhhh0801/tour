@@ -18,8 +18,6 @@
                             <p>0条评论</p>
                             <p>Q Q咨询：2765007365</p>
                             <h2 class="price">￥320<span style="color: #999;font-size: 16px;">/天</span></h2>
-                            <el-button  class="buy_btn" >立即预定</el-button>
-
                         </div>
                     </el-col>
                 </el-row>

@@ -11,6 +11,10 @@
                             <h2 class="price">￥320<span style="color: #999;font-size: 16px;">起</span></h2>
                             <p>0条评论</p>
                             <p>景点地址：四川省成都市大邑县西岭镇邛崃山脉中段</p>
+                            <p>
+                                <el-tag size="medium " >打折</el-tag>
+                                <el-tag size="medium ">团购</el-tag>
+                            </p>
                         </div>
                     </el-col>
                 </el-row>
@@ -22,15 +26,8 @@
                     <el-card class="box-card">
                         <div  class="text item d_flex border_b">
                             <span>成人票</span>
-                            <span><el-tag size="small">标签一</el-tag></span>
-                            <span class="price_c">￥33</span>
-                            <el-button  class="buy_btn" size="small">立即购买</el-button>
-                        </div>
-                        <div  class="text item d_flex">
-                            <span>半价票</span>
-                            <span><el-tag size="small">标签一</el-tag></span>
-                            <span class="price_c">￥33</span>
-                            <el-button  class="buy_btn" size="small">立即购买</el-button>
+                            <span><el-tag size="small" style="margin-right: 1em;" type="warning">7.5折</el-tag><el-tag size="small" type="warning">学生/老人半价</el-tag></span>
+                            <span class="price_c" >￥33</span>
                         </div>
                     </el-card>
                 </div>

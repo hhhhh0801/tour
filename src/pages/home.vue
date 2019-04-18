@@ -15,14 +15,14 @@
         <div class="content">
             <h2>热门线路</h2>
             <el-tabs v-model="activeLine" >
-                <el-tab-pane label="上海" name="line_first"><Spot></Spot></el-tab-pane>
+                <el-tab-pane label="上海" name="line_first"><Router></Router></el-tab-pane>
                 <el-tab-pane label="北京" name="line_second">配置管理</el-tab-pane>
             </el-tabs>
 
 
             <h2>热门景点</h2>
             <el-tabs v-model="activeSpot" >
-                <el-tab-pane label="国内" name="spot_first"><Router></Router></el-tab-pane>
+                <el-tab-pane label="国内" name="spot_first"><Spot></Spot></el-tab-pane>
                 <el-tab-pane label="国外" name="spot_second">配置管理</el-tab-pane>
             </el-tabs>
             <h2>导游</h2>

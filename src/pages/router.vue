@@ -13,10 +13,9 @@
                             <p>出发地：四川省成都市</p>
                             <p>旅游天数：三天两夜</p>
                             <p>
-                                <el-tag size="small" >随时退</el-tag>
-                                <el-tag size="small">豪华酒店</el-tag>
+                                <el-tag size="medium " >美食</el-tag>
+                                <el-tag size="medium ">豪华酒店</el-tag>
                             </p>
-                            <el-button  class="buy_btn" >立即预定</el-button>
 
                         </div>
                     </el-col>
