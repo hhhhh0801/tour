@@ -1,15 +1,15 @@
 <template>
     <div class="home">
         <Header></Header>
-        <el-carousel height="300px" >
+        <el-carousel height="380px" >
             <el-carousel-item >
-                <img src="@/assets/1.jpg" alt="" class="img">
+                <img src="@/assets/home/bg1.jpg" alt="" class="img">
             </el-carousel-item>
             <el-carousel-item >
-                <img src="@/assets/2.jpg" alt=""  class="img">
+                <img src="@/assets/home/bg2.jpg" alt=""  class="img">
             </el-carousel-item>
             <el-carousel-item >
-                <img src="@/assets/3.jpg" alt=""  class="img">
+                <img src="@/assets/home/bg3.jpg" alt=""  class="img">
             </el-carousel-item>
         </el-carousel>
         <div class="content">
@@ -17,6 +17,16 @@
             <el-tabs v-model="activeLine" >
                 <el-tab-pane label="上海" name="line_first"><Router></Router></el-tab-pane>
                 <el-tab-pane label="北京" name="line_second">配置管理</el-tab-pane>
+                <el-tab-pane label="苏州" name="line_three">配置管理</el-tab-pane>
+                <el-tab-pane label="杭州" name="line_four">配置管理</el-tab-pane>
+                <el-tab-pane label="四川" name="line_five">配置管理</el-tab-pane>
+                <el-tab-pane label="重庆" name="line_six">配置管理</el-tab-pane>
+                <el-tab-pane label="云南" name="line_seven">配置管理</el-tab-pane>
+                <el-tab-pane label="兰州" name="line_eight">配置管理</el-tab-pane>
+                <el-tab-pane label="西安" name="line_nine">配置管理</el-tab-pane>
+                <el-tab-pane label="青海" name="line_ten">配置管理</el-tab-pane>
+
+
             </el-tabs>
 
 
@@ -34,7 +44,7 @@
                             <span>苏州一日游</span>
                             <div class="bottom ">
                                 <span class="price">￥33</span>
-                                <el-button type="text" class="button" @click="goGuide">立即购买</el-button>
+                                <el-button type="text" class="button" @click="goGuide">查看详情</el-button>
                             </div>
                         </div>
                     </el-card>

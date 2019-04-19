@@ -8,7 +8,7 @@
                         <span>苏州一日游</span>
                         <div class="bottom ">
                             <span class="price">￥33</span>
-                            <el-button type="text" class="button" @click="goSpot">立即购买</el-button>
+                            <el-button type="text" class="button" @click="goSpot">查看详情</el-button>
                         </div>
                     </div>
                 </el-card>
